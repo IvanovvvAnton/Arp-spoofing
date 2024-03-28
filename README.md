@@ -2,5 +2,5 @@
 Для начала хочется немного рассказать про наш проект, для чего он и тд
 # Install pnet lab
 Описание установки pnet lab
-First of all :memo::nerd_face:
+First of all :nerd_face:
 
