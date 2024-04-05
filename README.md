@@ -78,8 +78,16 @@ https://github.com/ishare2-org/ishare2-cli?tab=readme-ov-file#quick-start-%F0%9F
 ![image](https://github.com/AntonAndAnna/Arp-spoofing/assets/103459290/14c7fd2a-8087-4361-9a5d-afdf7bb8f9e6)
 
 После:
-
+<p align="center">
 ![image](https://github.com/AntonAndAnna/Arp-spoofing/assets/103459290/34fe1616-430a-41e7-afdc-dc8dfbb08ef3)
+</p>
+
+Может пройти также ситуация, где при поиске конфигурации через ishare2 она не будет найдена. Поэтому есть второй способ для добавления устройств.
+
+Для начала нужно найти конфигурацию по ссылке:  https://drive.labhub.eu.org
+
+Скачав нужный образ нам необходимо загрузить его напрямую в PnetLAB. Воспользуемся также Mobaxterm, При подключении к консоли слева можем увидеть файловое представление: 
+![image](https://github.com/AntonAndAnna/Arp-spoofing/assets/103459290/520db192-a217-4ffe-b422-6f4a91d8c21d)
 
 # Создание лаборатории сети
 Построенная виртуальная лаборатория в PnetLab будет выглядеть так:
