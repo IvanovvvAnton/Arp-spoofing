@@ -78,16 +78,27 @@ https://github.com/ishare2-org/ishare2-cli?tab=readme-ov-file#quick-start-%F0%9F
 ![image](https://github.com/AntonAndAnna/Arp-spoofing/assets/103459290/14c7fd2a-8087-4361-9a5d-afdf7bb8f9e6)
 
 После:
-<center>
-    <img src="![image](https://github.com/AntonAndAnna/Arp-spoofing/assets/103459290/34fe1616-430a-41e7-afdc-dc8dfbb08ef3)">
-</center>
+
+![image](https://github.com/AntonAndAnna/Arp-spoofing/assets/103459290/34fe1616-430a-41e7-afdc-dc8dfbb08ef3)"
 
 Может пройти также ситуация, где при поиске конфигурации через ishare2 она не будет найдена. Поэтому есть второй способ для добавления устройств.
 
 Для начала нужно найти конфигурацию по ссылке:  https://drive.labhub.eu.org
 
 Скачав нужный образ нам необходимо загрузить его напрямую в PnetLAB. Воспользуемся также Mobaxterm, При подключении к консоли слева можем увидеть файловое представление: 
+
 ![image](https://github.com/AntonAndAnna/Arp-spoofing/assets/103459290/520db192-a217-4ffe-b422-6f4a91d8c21d)
+
+Необходимо перейти по пути:
+```
+/opt/unetlab/addons/qemu/
+```
+
+И после чего нажав в любом месте окна правой кнопкой мыши вызвать окно: 
+
+![image](https://github.com/AntonAndAnna/Arp-spoofing/assets/103459290/a0a60412-5d3a-4f92-93ad-7ac2f5a98980)
+
+Используя пункт «upload to current folder» загрузим необходимую конфигурацию
 
 # Создание лаборатории сети
 Построенная виртуальная лаборатория в PnetLab будет выглядеть так:
@@ -102,7 +113,7 @@ https://github.com/ishare2-org/ishare2-cli?tab=readme-ov-file#quick-start-%F0%9F
 
 – маршрутизатор Microtik 7.6 (Router), можно загрузить с помощью ishare2 (описаннной выше).
 
-– коммутатор Cisco IOS L2 (Switch) – ссылка на скачивание i86bi_linux_l2-adventerprisek9-ms.SSA.high_iron_20190423.bin - UPW.IO (добавление описано выше)
+– коммутатор Cisco IOS L2 (Switch) – ссылка на скачивание i86bi_linux_l2-adventerprisek9-ms.SSA.high_iron_20190423.bin - UPW.IO (описано выше)
 
 – компьютер нарушителя с ОС Linux (Ubuntu);
 
