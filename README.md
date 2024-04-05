@@ -87,6 +87,7 @@ https://github.com/ishare2-org/ishare2-cli?tab=readme-ov-file#quick-start-%F0%9F
 ![image](https://github.com/AntonAndAnna/Arp-spoofing/assets/103459290/9a2562e2-9a16-492f-b999-a2f9d84e88c0)
 
 В нее входит следующее оборудование:
+
 – шлюз подключения к внешней сети (Network)
 
 !!! Важно, что при использовании VMWare – необходимо выбрать Type( Management (Cloud0))
@@ -109,4 +110,25 @@ https://github.com/ishare2-org/ishare2-cli?tab=readme-ov-file#quick-start-%F0%9F
 
 ![image](https://github.com/AntonAndAnna/Arp-spoofing/assets/103459290/3fb79ca6-dfd6-4961-ade1-17bd19a62d0f)
 
+Далее произведем настройку сетевого оборудования
 
+Для настройки маршрутизатора на нем необходимо создать два VLAN, и настроить автоматическую раздачу IP-адресов для устройств, которые будут находится в этих VLAN
+## Создание vlan
+`
+interface vlan add name=vlan110 vlan-id=110 interface=ether2
+interface vlan add name=vlan115 vlan-id=115 interface=ether2
+`
+## Назначение IP-адресов для данных VLAN
+`
+ip address add address=192.168.110.1/24 network=192.168.110.0 interface=vlan110
+ip address add address=192.168.115.1/24 network=192.168.115.0 interface=vlan115
+`
+## Настройка DHCP-сервера для VLAN
+`
+dhcp server interface vlan 110 address space 192.168.110.0/24 gateway 192.168.110.1 addresses 192.168.110.2-192.168.110.15
+dhcp server interface vlan 115 address space 192.168.115.0/24 gateway 192.168.115.1 addresses 192.168.115.2-192.168.115.15
+`
+## Настройка NAT для выхода во внешнюю сеть
+`
+ip firewall nat add action=masquerade chain=srcnat out-interface=ether2 
+`
