@@ -113,7 +113,8 @@ https://github.com/ishare2-org/ishare2-cli?tab=readme-ov-file#quick-start-%F0%9F
 Далее произведем настройку сетевого оборудования
 
 Для настройки маршрутизатора на нем необходимо создать два VLAN, и настроить автоматическую раздачу IP-адресов для устройств, которые будут находится в этих VLAN
-## Создание vlan
+# Настройка Router (Microtik 7.6)
+## Создание VLAN
 ```
 interface vlan add name=vlan110 vlan-id=110 interface=ether2
 interface vlan add name=vlan115 vlan-id=115 interface=ether2
@@ -132,4 +133,8 @@ dhcp server interface vlan 115 address space 192.168.115.0/24 gateway 192.168.11
 ```
 ip firewall nat add action=masquerade chain=srcnat out-interface=ether2 
 ```
-
+В результате получим конфигурацию, чтобы ее вывести можно использовать команду
+```
+/ export compact
+```
+![image](https://github.com/AntonAndAnna/Arp-spoofing/assets/103459290/5d7b1ffd-c9b7-4d09-b595-3b1bba4a9bb8)
