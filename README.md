@@ -18,11 +18,19 @@ console_2nd:
     http: HTTP
     https: HTTPS
   wipe: 1 # 1 means this field needs to be wiped to get affected
-  width: 6 # width of the input box 6/12 screen width
+  width: 6 # width of the input box 6/12 screen widthб
 ```
 # Как установить PnetLab и добавить функцию ishare
 Для начала необходимо перейти на официальный сайт во вкладку Download (https://pnetlab.com/pages/download) и загрузить файл с расширение .ova, далее с помощью виртуальных платформ (VMWare, VirtualBox и др.) загрузить данный файл на платформу. В данном проекте была использована виртуальная платформа VMWare. В результате получим:
+
 ![photo_2024-04-05_15-54-34](https://github.com/AntonAndAnna/Arp-spoofing/assets/103459290/f6856b56-ed53-42a5-a43e-ca86e5763537)
 
+Далее по ip-адресу, который показываем виртуальная машина, перейти на web-сайт (например http://192.168.15.155). Выбрать вкладку Login by Online Mode, используя Sign Up создадим аккаунт (для этого введем имя пользователя, e-mail, и пароль).
 
-Более подробный процесс установки можно также найти на официальной сайте (https://pnetlab.com/pages/documentation?slug=install-PNETlab). 
+![image](https://github.com/AntonAndAnna/Arp-spoofing/assets/103459290/9306e494-27ce-489b-b3b7-2ef497f7e955)
+
+Потом вы попадете в рабочее пространство, в котором вы можете создавать проекты, также смотреть проекты других пользователей.
+
+![image](https://github.com/AntonAndAnna/Arp-spoofing/assets/103459290/745c6c5c-5f5e-4d03-b2d6-b2254974a2f5)
+
+Также процесс установки можно также найти на официальной сайте (https://pnetlab.com/pages/documentation?slug=install-PNETlab). 
