@@ -52,14 +52,14 @@ ARP-spoofing это кибератака, основанная на влияни
 https://github.com/ishare2-org/ishare2-cli?tab=readme-ov-file#quick-start-%F0%9F%9A%80
 
 После установки ishare2 найти и выбрать необходимое оборудование можно найти и скачать следующим образом:
-### 1.	В командной строке терминала PnetLAB ввести команду
+### В командной строке терминала PnetLAB ввести команду
 (для примера будет осуществлять скачивание конфигурации Huawei)
 
 **root@pnetlab:~# ishare2 search huawei**
 
 ![image](https://github.com/AntonAndAnna/Arp-spoofing/assets/103459290/2c26befc-bea0-45bc-b71e-8efdb6e858ac)
 
-После чего будет выведен список доступных устройств с именем Huawei. Чтобы скачать конфигурацию определенного устройства необходимо прописать следующие команды: 
+### После чего будет выведен список доступных устройств с именем Huawei. Чтобы скачать конфигурацию определенного устройства необходимо прописать следующие команды: 
 (для примера будет осуществлять скачивание конфигурации Huawei под номером 529)
 
   **root@pnetlab:~# ishare2 pull qemu 529**
@@ -67,11 +67,11 @@ https://github.com/ishare2-org/ishare2-cli?tab=readme-ov-file#quick-start-%F0%9F
 ![image](https://github.com/AntonAndAnna/Arp-spoofing/assets/103459290/ad1bf2e0-0cec-4612-aa4f-e1d10ab3b937)
 
 Начнется загрузка соответствующей конфигурации
-После окончания загрузки появится сообщение: 
+### После окончания загрузки появится сообщение: 
 
 ![image](https://github.com/AntonAndAnna/Arp-spoofing/assets/103459290/70f2ac3e-2c80-4efc-9c63-53cfd31a246c)
 
-Далее перейдем в лабораторию и в списке выбора оборудования увидим изменения – станет доступна конфигурация с именем Huawei. 
+### Далее перейдем в лабораторию и в списке выбора оборудования увидим изменения – станет доступна конфигурация с именем Huawei. 
 
 До:
 
@@ -113,7 +113,7 @@ https://github.com/ishare2-org/ishare2-cli?tab=readme-ov-file#quick-start-%F0%9F
 
 – маршрутизатор Microtik 7.6 (Router), можно загрузить с помощью ishare2 (описаннной выше).
 
-– коммутатор Cisco IOS L2 (Switch) – ссылка на скачивание i86bi_linux_l2-adventerprisek9-ms.SSA.high_iron_20190423.bin - UPW.IO (описано выше)
+– коммутатор Cisco IOS L2 (Switch) – ссылка на скачивание https://upw.io/772/i86bi_linux_l2-adventerprisek9-ms.SSA.high_iron_20190423 (добавление данного устройства описано выше)
 
 – компьютер нарушителя с ОС Linux (Ubuntu);
 
