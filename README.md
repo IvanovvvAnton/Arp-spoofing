@@ -21,5 +21,5 @@ console_2nd:
   width: 6 # width of the input box 6/12 screen width
 ```
 # Как установить PnetLab и добавить функцию ishare
-  Для начала необходимо перейти на официальный сайт во вкладку Download (https://pnetlab.com/pages/download) и загрузить файл с расширение .ova, далее с помощью виртуальных платформ (VMWare, VirtualBox и др.) загрузить данный файл на платформу. В данном проекте была использована виртуальная платформа VMWare. 
-  Более подробный процесс установки можно также найти на официальной сайте (https://pnetlab.com/pages/documentation?slug=install-PNETlab). 
+    Для начала необходимо перейти на официальный сайт во вкладку Download (https://pnetlab.com/pages/download) и загрузить файл с расширение .ova, далее с помощью виртуальных платформ (VMWare, VirtualBox и др.) загрузить данный файл на платформу. В данном проекте была использована виртуальная платформа VMWare. 
+    Более подробный процесс установки можно также найти на официальной сайте (https://pnetlab.com/pages/documentation?slug=install-PNETlab). 
