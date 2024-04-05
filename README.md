@@ -138,3 +138,42 @@ ip firewall nat add action=masquerade chain=srcnat out-interface=ether2
 / export compact
 ```
 ![image](https://github.com/AntonAndAnna/Arp-spoofing/assets/103459290/5d7b1ffd-c9b7-4d09-b595-3b1bba4a9bb8)
+
+# Настройка Switch
+Для этого необоходимо перейти в привелегированный режим командамми
+```
+>enable
+#configure terminal
+```
+## Создание VLAN
+```
+vlan 110
+name pc
+vlan 115
+name trunk
+```
+## Назначение trunk и access портов
+```
+interface e0/0
+switchport mode access
+switchport access vlan 110
+```
+```
+interface e0/2
+switchport mode trunk
+switchport encapsulation dot1q
+switchport trunk native vlan 115
+switchport trunk allowed vlan 110
+```
+Далее необходимо сохранить конфигурацию используя команду
+```
+write
+```
+И чтобы вывести конфигурацию используем команжу
+```
+show run
+```
+
+![image](https://github.com/AntonAndAnna/Arp-spoofing/assets/103459290/2e5ac7cb-765e-4f19-9fee-5d273c9000d4)
+
+
