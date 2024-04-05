@@ -88,16 +88,23 @@ https://github.com/ishare2-org/ishare2-cli?tab=readme-ov-file#quick-start-%F0%9F
 
 В нее входит следующее оборудование:
 – шлюз подключения к внешней сети (Network)
+
 !!! Важно, что при использовании VMWare – необходимо выбрать Type( Management (Cloud0))
+
 – маршрутизатор Microtik 7.6 (Router), можно загрузить с помощью ishare2 (описаннной выше).
+
 – коммутатор Cisco IOS L2 (Switch) – ссылка на скачивание i86bi_linux_l2-adventerprisek9-ms.SSA.high_iron_20190423.bin - UPW.IO (добавление описано выше)
+
 – компьютер нарушителя с ОС Linux (Ubuntu);
+
 – компьютер жертвы с ОС Linux (Ubuntu_victim);
+
 Данные устройства уже есть в PnetLab.
 
 ![image](https://github.com/AntonAndAnna/Arp-spoofing/assets/103459290/886bf7e8-9547-4394-9433-66e02d87ae1b)
 
 Загрузим Ubuntu Server 20.04 и Ubuntu Desktop 20.04, а также WireShark (пригодится в будушем)
+
 Далее выбрав Doker.io, выберем файл image, как представлено ниже:
 
 ![image](https://github.com/AntonAndAnna/Arp-spoofing/assets/103459290/3fb79ca6-dfd6-4961-ade1-17bd19a62d0f)
