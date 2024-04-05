@@ -46,4 +46,29 @@ ARP-spoofing это кибератака, основанная на влияни
 ![image](https://github.com/AntonAndAnna/Arp-spoofing/assets/103459290/745c6c5c-5f5e-4d03-b2d6-b2254974a2f5)
 
 Также процесс установки можно также найти на официальной сайте (https://pnetlab.com/pages/documentation?slug=install-PNETlab). 
-Изначанально в PnetLab
+
+Изначально PnetLAB имеет очень ограниченное количество устройств для выбора и использования, поэтому необходимо осуществить загрузку ishare2. 
+Полная инструкция для скачивания этого расширения есть по ссылке:
+https://github.com/ishare2-org/ishare2-cli?tab=readme-ov-file#quick-start-%F0%9F%9A%80
+
+После установки ishare2 найти и выбрать необходимое оборудование можно найти и скачать следующим образом:
+### 1.	В командной строке терминала PnetLAB ввести команду
+(для примера будет осуществлять скачивание конфигурации Huawei)
+**root@pnetlab:~# ishare2 search huawei**
+![image](https://github.com/AntonAndAnna/Arp-spoofing/assets/103459290/2c26befc-bea0-45bc-b71e-8efdb6e858ac)
+
+После чего будет выведен список доступных устройств с именем Huawei. Чтобы скачать конфигурацию определенного устройства необходимо прописать следующие команды: 
+(для примера будет осуществлять скачивание конфигурации Huawei под номером 529)
+**root@pnetlab:~# ishare2 pull qemu 529**
+![image](https://github.com/AntonAndAnna/Arp-spoofing/assets/103459290/ad1bf2e0-0cec-4612-aa4f-e1d10ab3b937)
+
+Начнется загрузка соответствующей конфигурации
+После окончания загрузки появится сообщение: 
+![image](https://github.com/AntonAndAnna/Arp-spoofing/assets/103459290/166ae0f8-b5e6-4133-add5-8ef5ef4252f6)
+
+Далее перейдем в лабораторию и в списке выбора оборудования увидим изменения – станет доступна конфигурация с именем Huawei. 
+До:
+![image](https://github.com/AntonAndAnna/Arp-spoofing/assets/103459290/14c7fd2a-8087-4361-9a5d-afdf7bb8f9e6)
+
+После:
+![image](https://github.com/AntonAndAnna/Arp-spoofing/assets/103459290/34fe1616-430a-41e7-afdc-dc8dfbb08ef3)
