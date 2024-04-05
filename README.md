@@ -69,7 +69,7 @@ https://github.com/ishare2-org/ishare2-cli?tab=readme-ov-file#quick-start-%F0%9F
 Начнется загрузка соответствующей конфигурации
 После окончания загрузки появится сообщение: 
 
-![image](https://github.com/AntonAndAnna/Arp-spoofing/assets/103459290/166ae0f8-b5e6-4133-add5-8ef5ef4252f6)
+![image](https://github.com/AntonAndAnna/Arp-spoofing/assets/103459290/70f2ac3e-2c80-4efc-9c63-53cfd31a246c)
 
 Далее перейдем в лабораторию и в списке выбора оборудования увидим изменения – станет доступна конфигурация с именем Huawei. 
 
