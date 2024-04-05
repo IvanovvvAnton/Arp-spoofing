@@ -78,9 +78,9 @@ https://github.com/ishare2-org/ishare2-cli?tab=readme-ov-file#quick-start-%F0%9F
 ![image](https://github.com/AntonAndAnna/Arp-spoofing/assets/103459290/14c7fd2a-8087-4361-9a5d-afdf7bb8f9e6)
 
 После:
-<p align="center">
-![image](https://github.com/AntonAndAnna/Arp-spoofing/assets/103459290/34fe1616-430a-41e7-afdc-dc8dfbb08ef3)
-</p>
+<center>
+    <img src="![image](https://github.com/AntonAndAnna/Arp-spoofing/assets/103459290/34fe1616-430a-41e7-afdc-dc8dfbb08ef3)">
+</center>
 
 Может пройти также ситуация, где при поиске конфигурации через ishare2 она не будет найдена. Поэтому есть второй способ для добавления устройств.
 
