@@ -20,3 +20,5 @@ console_2nd:
   wipe: 1 # 1 means this field needs to be wiped to get affected
   width: 6 # width of the input box 6/12 screen width
 ```
+# Как установить PnetLab и добавить функцию ishare
+Для начала необходимо перейти на официальный сайт (https://pnetlab.com/pages/download) и загрузить файл с расширение .ova, далее с помощью виртуальных платформ (VMWare, VirtualBox и др.) загрузить данный файл на платформу. В данном проекте была использована виртуальная платформа VMWare. 
