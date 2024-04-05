@@ -54,13 +54,13 @@ https://github.com/ishare2-org/ishare2-cli?tab=readme-ov-file#quick-start-%F0%9F
 После установки ishare2 найти и выбрать необходимое оборудование можно найти и скачать следующим образом:
 ### 1.	В командной строке терминала PnetLAB ввести команду
 (для примера будет осуществлять скачивание конфигурации Huawei)
-##root@pnetlab:~# ishare2 search huawei
+**root@pnetlab:~# ishare2 search huawei**
 
 ![image](https://github.com/AntonAndAnna/Arp-spoofing/assets/103459290/2c26befc-bea0-45bc-b71e-8efdb6e858ac)
 
 После чего будет выведен список доступных устройств с именем Huawei. Чтобы скачать конфигурацию определенного устройства необходимо прописать следующие команды: 
 (для примера будет осуществлять скачивание конфигурации Huawei под номером 529)
-##root@pnetlab:~# ishare2 pull qemu 529
+  **root@pnetlab:~# ishare2 pull qemu 529**
 
 ![image](https://github.com/AntonAndAnna/Arp-spoofing/assets/103459290/ad1bf2e0-0cec-4612-aa4f-e1d10ab3b937)
 
