@@ -21,7 +21,7 @@
 - ["Implementation of the attack"](#Implementation-of-the-attack)
 - ["Protection methods"](#Protection-methods)
 - ["Implementation of protection methods"](#Implementation-of-protection-methods)
-- ["Authors"](Authors)
+- ["Authors"](#Authors)
 
 # Description of the project
 Modern information technologies are subject to an increasing number of attacks that pose a threat to the loss of data integrity and confidentiality. The urgency of the problem of network attacks, such as ARP-spoofing, is becoming increasingly critical in the context of the widespread use of local networks in various spheres of life.
