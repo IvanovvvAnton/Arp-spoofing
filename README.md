@@ -21,6 +21,7 @@
 - ["Implementation of the attack"](#Implementation-of-the-attack)
 - ["Protection methods"](#Protection-methods)
 - ["Implementation of protection methods"](#Implementation-of-protection-methods)
+- ["Authors"](Authors)
 
 # Description of the project
 Modern information technologies are subject to an increasing number of attacks that pose a threat to the loss of data integrity and confidentiality. The urgency of the problem of network attacks, such as ARP-spoofing, is becoming increasingly critical in the context of the widespread use of local networks in various spheres of life.
@@ -314,4 +315,9 @@ ip arp inspection trust
 As a result, after re-implementing the attack, you can see that the MAC addresses in the ARP table do not change, and the switch recognizes the cyberattack, which indicates the successful implementation of protection methods
 
 ![image](https://github.com/AntonAndAnna/Arp-spoofing/assets/103459290/41a19b4b-1b0a-4da7-a7d7-a85143f49286)
+
+# Authors
+If you have any questions, you can ask them to us by writing to us at email:
+- ivanovvvvvvvanton3829@gmail.com
+- annakisel8534@gmail.com
 
