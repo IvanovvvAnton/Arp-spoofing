@@ -10,7 +10,7 @@
 - - ["Download configuration"](##To-download-the-configuration-of-a-specific-device,-you-need-to-register-the-following-commands)
 - - ["Result"](##Next,-go-to-the-laboratory-and-see-the-changes-in-the-equipment-selection-list-–-a-configuration-named-Huawei-will-be-available)
 - ["Creating a network lab"](#Creating-a-network-lab)
-- ["Router Setup (Mikrotik 7.6)"](#Router-Setup-(Mikrotik-7.6)) 
+- ["Router Setup"](#Router-Setup) 
 - - ["VLAN"](##VLAN-Creation)
 - - ["IP addresses"](##Assigning-IP-addresses-for-VLAN-data)
 - - ["DHCP Server"](##Configuring-a-DHCP-server-for-a-VLAN)
@@ -157,7 +157,7 @@ Next, by selecting Docker.io , select the image file as shown below:
 Next, we will configure the network equipment
 
 To set up a router on it, you need to create two VLANs, and configure automatic distribution of IP addresses for devices that will be located in these VLANs
-# Router Setup (Mikrotik 7.6)
+# Router Setup 
 ## VLAN Creation
 ```
 interface vlan add name=vlan110 vlan-id=110 interface=ether2
