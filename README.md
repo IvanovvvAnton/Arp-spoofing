@@ -10,7 +10,7 @@
 - - ["Download configuration"](##To-download-the-configuration-of-a-specific-device,-you-need-to-register-the-following-commands)
 - - ["Result"](##Next,-go-to-the-laboratory-and-see-the-changes-in-the-equipment-selection-list-–-a-configuration-named-Huawei-will-be-available)
 - ["Creating a network lab"](#Creating-a-network-lab)
-- ["Router Setup (Mikrotik 7.6)"](#Router-Setup-Mikrotik-7.6)
+- ["Router Setup (Mikrotik 7.6)"](#Router-Setup-(Mikrotik-7.6)) 
 - - ["VLAN"](##VLAN-Creation)
 - - ["IP addresses"](##Assigning-IP-addresses-for-VLAN-data)
 - - ["DHCP Server"](##Configuring-a-DHCP-server-for-a-VLAN)
