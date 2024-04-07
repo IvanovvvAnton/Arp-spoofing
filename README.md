@@ -6,9 +6,9 @@
 - -  ["Description"](#Description-of-the-attack)
 - ["Description of the implementation platform"](#Description-of-the-implementation-platform)
 - ["How to install PnetLab and add the ishare2 function"](#How-to-install-PnetLab-and-add-the-ishare2-function)
-- - ["Special command"](#In-the-command-line-of-the-Netlab-terminal,-enter-the-command)
-- - ["Download configuration"](#To-download-the-configuration-of-a-specific-device,-you-need-to-register-the-following-commands)
-- - ["Result"](#Next,-go-to-the-laboratory-and-see-the-changes-in-the-equipment-selection-list-–-a-configuration-named-Huawei-will-be-available)
+- - ["Special command"](#In-the-command-line-of-the-Netlab-terminal-enter-the-command)
+- - ["Download configuration"](#To-download-the-configuration-of-a-specific-device-you-need-to-register-the-following-commands)
+- - ["Result"](#Next,-go-to-the-laboratory-and-see-the-changes-in-the-equipment-selection-list-a-configuration-named-Huawei-will-be-available)
 - ["Creating a network lab"](#Creating-a-network-lab)
 - ["Router Setup"](#Router-Setup) 
 - - ["VLAN"](#VLAN-Creation)
@@ -85,7 +85,7 @@ root@pnetlab:~# ishare2 search huawei
 
 After that, a list of available devices with the name Huawei will be displayed. 
 
-### To download the configuration of a specific device, you need to register the following commands:
+### To download the configuration of a specific device you need to register the following commands:
 (for example, Huawei configuration number 529 will be downloaded)
 ```
 root@pnetlab:~# ishare2 pull qemu 529
@@ -93,11 +93,11 @@ root@pnetlab:~# ishare2 pull qemu 529
 ![image](https://github.com/AntonAndAnna/Arp-spoofing/assets/103459290/ad1bf2e0-0cec-4612-aa4f-e1d10ab3b937)
 
 The download of the corresponding configuration will begin
-### After the download is finished, a message will appear:
+### After the download is finished a message will appear:
 
 ![image](https://github.com/AntonAndAnna/Arp-spoofing/assets/103459290/70f2ac3e-2c80-4efc-9c63-53cfd31a246c)
 
-### Next, go to the laboratory and see the changes in the equipment selection list – a configuration named Huawei will be available. 
+### Next go to the laboratory and see the changes in the equipment selection list a configuration named Huawei will be available. 
 
 Before:
 
