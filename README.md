@@ -1,6 +1,7 @@
 ## Table of contents
 
-- [Description](# Description of the project)
+- [Description of the project]([#Description-of-the-project(https://github.com/AntonAndAnna/Arp-spoofing/tree/main?tab=readme-ov-file#description-of-the-project))
+- [Description of the attack]([#Description-of-the-attack(https://github.com/AntonAndAnna/Arp-spoofing/tree/main?tab=readme-ov-file#description-of-the-attack))
 
 
 # Description of the project
