@@ -3,8 +3,24 @@
 - ["Description of the project"](#Description-of-the-project)
 - ["Description of the attack"](#Descriptionoftheattack)
 - -  ["The principle of operation of the ARP protocol"](##TheprincipleofoperationoftheARPprotocol)
-  -  
-
+- -  ["Description"](##Description-of-the-attack)
+["Description of the implementation platform"](Description-of-the-implementation-platform) 
+["How to install PnetLab and add the ishare2 function"](How-to-install-PnetLab-and-add-the-ishare2-function)
+- - ["Special command"](In-the-command-line-of-the-Netlab-terminal,-enter-the-command)
+- - ["Download configuration"](To-download-the-configuration-of-a-specific-device,-you-need-to-register-the-following-commands)
+- - ["Result"](Next,-go-to-the-laboratory-and-see-the-changes-in-the-equipment-selection-list-–-a-configuration-named-Huawei-will-be-available)
+- ["Creating a network lab"](Creating-a-network-lab)
+- ["Router Setup (Mikrotik 7.6)"](Router-Setup-Mikrotik-7.6)
+- - ["VLAN"](VLAN-Creation)
+- - ["IP addresses"](Assigning-IP-addresses-for-VLAN-data)
+- - ["DHCP Server"](Configuring-a-DHCP-server-for-a-VLAN)
+- - ["NAT"](Configuring-NAT-to-access-the-external-network)
+- ["Switch Setup"](Switch-Setup)
+- - ["VLAN"](Creating-a-VLAN)
+- - ["Ports"](Assigning-trunk-and-access-ports)
+- ["Implementation of the attack"](Implementation-of-the-attack)
+- ["Protection methods"](Protection-methods)
+- ["Implementation of protection methods"](Implementation-of-protection-methods)
 
 # Description of the project
 Modern information technologies are subject to an increasing number of attacks that pose a threat to the loss of data integrity and confidentiality. The urgency of the problem of network attacks, such as ARP-spoofing, is becoming increasingly critical in the context of the widespread use of local networks in various spheres of life.
@@ -27,7 +43,7 @@ An example of such an interaction can be seen in the picture.
 
 ![image](https://github.com/AntonAndAnna/Arp-spoofing/assets/103459290/555d6b68-ef9b-4e58-91d8-aef46430db0f)
 
-## Description of the attack   
+## Description  
 ARP-spoofing is a cyberattack based on the impact on the transmission of ARP frames. During the attack, the attacker scans the network and substitutes MAC addresses. This allows him to fake and redirect network traffic, which leads to serious consequences, such as interception of information, its substitution or disruption of the normal functioning of the network.
 
 Due to the fact that the ARP request contains a broadcast MAC address, any device in the broadcast segment can receive such an ARP frame. 
@@ -60,7 +76,7 @@ Full instructions for downloading this extension are available at the link:
 https://github.com/ishare2-org/ishare2-cli?tab=readme-ov-file#quick-start-%F0%9F%9A%80
 
 After installing share 2, you can find and select the necessary hardware and download it as follows:
-### ### In the command line of the Netlab terminal, enter the command
+### In the command line of the Netlab terminal, enter the command
 (for example, it will download the Huawei configuration)
 ```
 root@pnetlab:~# ishare2 search huawei
@@ -141,7 +157,7 @@ Next, by selecting Docker.io , select the image file as shown below:
 Next, we will configure the network equipment
 
 To set up a router on it, you need to create two VLANs, and configure automatic distribution of IP addresses for devices that will be located in these VLANs
-# # Router Setup (Mikrotik 7.6)
+# Router Setup (Mikrotik 7.6)
 ## VLAN Creation
 ```
 interface vlan add name=vlan110 vlan-id=110 interface=ether2
@@ -167,7 +183,7 @@ As a result, we will get the configuration, in order to output it, you can use t
 ```
 ![image](https://github.com/AntonAndAnna/Arp-spoofing/assets/103459290/5d7b1ffd-c9b7-4d09-b595-3b1bba4a9bb8)
 
-# Setting up the Switch
+# Switch Setup
 To do this, you need to switch to privileged mode with the commands
 ```
 >enable
