@@ -1,8 +1,8 @@
 ## Table of contents
 
-- [Description of the project](#https://github.com/AntonAndAnna/Arp-spoofing/tree/main?tab=readme-ov-file#description-of-the-project/)
-- [Description of the attack](#https://github.com/AntonAndAnna/Arp-spoofing/tree/main?tab=readme-ov-file#description-of-the-project/)
-- -  [The principle of operation of the ARP protocol](##The-principle-of-operation-of-the-ARP-protocol)
+- ["Description of the project"](#Descriptionoftheproject)
+- ["Description of the attack"](#Descriptionoftheattack)
+- -  ["The principle of operation of the ARP protocol"](##TheprincipleofoperationoftheARPprotocol)
   -  
 
 
