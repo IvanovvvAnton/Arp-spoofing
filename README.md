@@ -42,6 +42,8 @@ The receiving network device (PC-2), after accepting this packet, must compare t
 
 An example of such an interaction can be seen in the picture.
 
+![screen-gif](https://github.com/AntonAndAnna/Arp-spoofing/assets/103459290/d02b8b0e-fd83-4a52-84b0-3b078e73d99a)
+
 ![image](https://github.com/AntonAndAnna/Arp-spoofing/assets/103459290/7771fdeb-607d-4749-bde0-975096552968)
 
 ## Description  
