@@ -1,4 +1,4 @@
-## Table of contents
+# Table of contents
 
 - ["Description of the project"](#Description-of-the-project)
 - ["Description of the attack"](#Description-of-the-attack)
