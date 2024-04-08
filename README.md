@@ -42,7 +42,7 @@ The receiving network device (PC-2), after accepting this packet, must compare t
 
 An example of such an interaction can be seen in the picture.
 
-![screen-gif](![1 2](https://github.com/AntonAndAnna/Arp-spoofing/assets/103459290/67f715c8-8539-4b92-bc4e-978313fbe58d)
+![screen-gif](https://github.com/AntonAndAnna/Arp-spoofing/assets/103459290/67f715c8-8539-4b92-bc4e-978313fbe58d)
 
 ## Description  
 ARP-spoofing is a cyberattack based on the impact on the transmission of ARP frames. During the attack, the attacker scans the network and substitutes MAC addresses. This allows him to fake and redirect network traffic, which leads to serious consequences, such as interception of information, its substitution or disruption of the normal functioning of the network.
