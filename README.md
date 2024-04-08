@@ -42,7 +42,7 @@ The receiving network device (PC-2), after accepting this packet, must compare t
 
 An example of such an interaction can be seen in the picture.
 
-![screen-gif](https://github.com/AntonAndAnna/Arp-spoofing/assets/103459290/d02b8b0e-fd83-4a52-84b0-3b078e73d99a)
+![screen-gif](![1 2](https://github.com/AntonAndAnna/Arp-spoofing/assets/103459290/67f715c8-8539-4b92-bc4e-978313fbe58d)
 
 ## Description  
 ARP-spoofing is a cyberattack based on the impact on the transmission of ARP frames. During the attack, the attacker scans the network and substitutes MAC addresses. This allows him to fake and redirect network traffic, which leads to serious consequences, such as interception of information, its substitution or disruption of the normal functioning of the network.
@@ -50,7 +50,7 @@ ARP-spoofing is a cyberattack based on the impact on the transmission of ARP fra
 Due to the fact that the ARP request contains a broadcast MAC address, any device in the broadcast segment can receive such an ARP frame. 
 Therefore, an attack option arises – the implementation of a man-in-the-middle cyberattack by replacing the MAC address of the router port with the MAC address of the offending device in the ARP table of the victim's device.
 
-![image](https://github.com/AntonAndAnna/Arp-spoofing/assets/103459290/0f96907a-fb50-4f10-8f04-3f1af89d473b)
+![screen-gif](https://github.com/AntonAndAnna/Arp-spoofing/assets/103459290/5c4cadbf-a2b7-4c7a-80d4-77ba2f0bd1bb)
 
 Thus, all traffic coming from the user's device to the router will be redirected to the intruder's device, while unnoticed by the user himself.
 
