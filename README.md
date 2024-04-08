@@ -129,6 +129,7 @@ Using the "upload to current folder" item, we will upload the necessary configur
 
 # Creating a network lab
 The built virtual laboratory in Netlab will look like this:
+
 ![image](https://github.com/AntonAndAnna/Arp-spoofing/assets/103459290/9a2562e2-9a16-492f-b999-a2f9d84e88c0)
 
 It includes the following equipment:
