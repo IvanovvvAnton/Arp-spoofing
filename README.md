@@ -73,7 +73,23 @@ Then you will be taken to a workspace where you can create projects, as well as 
 The installation process can also be found on the official website (https://pnetlab.com/pages/documentation?slug=install-PNETlab ). 
 
 Initially, PnetLAB has a very limited number of devices to select and use, so it is necessary to download ishare2.
-Full instructions for downloading this extension are available at the link:
+
+But for convenient editing and use of the Netlab console, we will make a remote connection via a third-party application. We used Mobaxterm.
+
+MobaXterm is a program designed for remote administration of computers and servers. The all-in-one network application for remote work gives you a lot of advantages, for example, when using SSH to connect to a remote server, a graphical SFTP browser automatically opens for direct editing of your remotely located files.
+
+To connect to Netlab, follow these steps.
+In the upper panel of the main window, select the “Session” item and in the window that appears:
+- Connection type: "SSH"
+- Remote host: The IP address that you received to access PnetLAB
+- Specify username: root 
+- Port: leave unchanged
+- 
+![image](https://github.com/AntonAndAnna/Arp-spoofing/assets/103459290/2d674860-f94c-47ca-8e5e-d73307331812)
+
+This way we get remote access to the PnetLAB console
+
+Let's go back to setting up ishare2. Full instructions for downloading this extension are available at the link:
 https://github.com/ishare2-org/ishare2-cli?tab=readme-ov-file#quick-start-%F0%9F%9A%80
 
 After installing share 2, you can find and select the necessary hardware and download it as follows:
