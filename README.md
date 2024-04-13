@@ -74,7 +74,7 @@ The installation process can also be found on the official website (https://pnet
 
 Initially, PnetLAB has a very limited number of devices to select and use, so it is necessary to download ishare2.
 
-But for convenient editing and use of the Netlab console, we will make a remote connection via a third-party application. We used Mobaxterm.
+But for convenient editing and use of the Netlab console, we will make a remote connection via a third-party application. We used Mobaxterm (https://mobaxterm.mobatek.net/download.html)
 
 MobaXterm is a program designed for remote administration of computers and servers. The all-in-one network application for remote work gives you a lot of advantages, for example, when using SSH to connect to a remote server, a graphical SFTP browser automatically opens for direct editing of your remotely located files.
 
@@ -84,7 +84,7 @@ In the upper panel of the main window, select the “Session” item and in the 
 - Remote host: The IP address that you received to access PnetLAB
 - Specify username: root 
 - Port: leave unchanged
-- 
+  
 ![image](https://github.com/AntonAndAnna/Arp-spoofing/assets/103459290/2d674860-f94c-47ca-8e5e-d73307331812)
 
 This way we get remote access to the PnetLAB console
