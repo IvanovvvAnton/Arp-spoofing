@@ -6,6 +6,7 @@
 - -  ["Description"](#Description-of-the-attack)
 - ["Description of the implementation platform"](#Description-of-the-implementation-platform)
 - ["How to install PnetLab and add the ishare2 function"](#How-to-install-PnetLab-and-add-the-ishare2-function)
+- - ["MobaXterm"](#MobaXterm)
 - - ["Special command"](#In-the-command-line-of-the-Netlab-terminal-enter-the-command)
 - - ["Download configuration"](#To-download-the-configuration-of-a-specific-device-you-need-to-register-the-following-commands)
 - - ["Result"](#Next-go-to-the-laboratory-and-see-the-changes-in-the-equipment-selection-list-a-configuration-named-Huawei-will-be-available)
@@ -72,7 +73,11 @@ Then you will be taken to a workspace where you can create projects, as well as 
 
 The installation process can also be found on the official website (https://pnetlab.com/pages/documentation?slug=install-PNETlab ). 
 
+## Ishare2
+
 Initially, PnetLAB has a very limited number of devices to select and use, so it is necessary to download ishare2.
+
+### MobaXterm
 
 But for convenient editing and use of the Netlab console, we will make a remote connection via a third-party application. We used Mobaxterm (https://mobaxterm.mobatek.net/download.html)
 
